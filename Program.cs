@@ -9,6 +9,7 @@ IHost host = Host.CreateDefaultBuilder(args)
         var botSettings = builder.Configuration.GetSection(nameof(RoganBotSettings));
         RoganBotSettings? roganBotSettings = botSettings.Get<RoganBotSettings>();
  
+
         services.AddLogging()
                 .Configure<RoganBotSettings>(botSettings)
                 .AddSingleton<DiscordSocketClient>(DiscordServicesFactory.NewDiscordSocketClient(roganBotSettings))

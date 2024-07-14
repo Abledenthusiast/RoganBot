@@ -6,12 +6,6 @@
         "DOTNET_ENVIRONMENT": "Development"
       },
       "dotnetRunMessages": true
-    },
-    "Docker": {
-      "commandName": "Docker",
-      "environmentVariables": {
-        "RoganBotSettings__Token": "ODE0NzE1MDUxMjE4OTYwMzg1.YDh4hA.eL6A6KItLpKt7WTc8zh59OH9esQ"
-      }
     }
   }
 }
